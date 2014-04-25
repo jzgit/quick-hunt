@@ -1,0 +1,1 @@
+export default Ember.Handlebars.compile("{{#hunt-sidebar}}\n  {{hunt-caption caption=caption}}\n  {{time-on-page}}\n  {{#each spots}}\n    <div>{{time}}</div>\n  {{/each}}\n{{/hunt-sidebar}}\n\n{{#hunt-image action=\'spotClick\'}}\n  {{#each spots}}\n    {{hunt-spot xPos=xPos yPos=yPos}}\n  {{/each}}\n  <img {{bind-attr src=huntImage}}\n{{/hunt-image}}\n");
