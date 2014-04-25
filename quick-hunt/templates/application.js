@@ -1,0 +1,1 @@
+export default Ember.Handlebars.compile("{{outlet}}\n\n{{#hunt-filepicker}}\n  create\n  {{file}}\n{{/hunt-filepicker}}\n\n\n <div contenteditable=\"true\">\n    This text can be edited by the user.\n  </div>\n\n");
