@@ -32,6 +32,10 @@ html {
   display: none;
   position: absolute;
 }
+
+#filepicker_dialog_container > a {
+  display: none !important;
+}
 /*body {*/
   /*background-color: white;*/
   /*background-image: url('hunt.jpg');*/

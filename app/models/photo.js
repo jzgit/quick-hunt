@@ -1,5 +1,8 @@
 var Photo = DS.Model.extend({
-  comments: DS.hasMany('comment', { async: true })
+  url: DS.attr(),
+  filename: DS.attr(),
+  mimetype: DS.attr(),
+  size: DS.attr()
 });
 
 export default photo;
